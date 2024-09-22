@@ -91,18 +91,7 @@ The project can be used along side with the server side or without it untill the
      cd netflix-ui
      npm install
      ```
-5. Run the Client Side :
-     ```sh
-     cd netflix-ui
-     npm start
-     ```
-
-6. Install NPM packages
-     ```sh
-     cd netflix-api
-     npm install
-     ```
-7. Run the Server Side :
+5. Run the Server Side :
      ```sh
      cd netflix-api
      node server.js
