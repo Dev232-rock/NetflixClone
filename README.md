@@ -1,27 +1,9 @@
-<p align="center">
-  <img src="netflix-ui/src/assest/logo.png"
-     alt="Netlflix logo by Anass FERRAK" >
-</p>
-
   <h2 align="center">
     <samp>
       Netflix - A fully functional Netflix Clone made with MERN Stack and other technologies, check them below.
     </samp>
   </h2>
 
-<br>
-
-<p align="center">
-  <a href="#preview">Preview</a> •
-  <a href="#tech-stack">Tech Stack</a> •
-  <a href="#usage">Usage</a> •
-  <a href="#features">Features</a> •
-  <a href="#todo-list">Todo list</a> •
-  <a href="#contribute">Contribute</a> •
-  <a href="#image-copyright-claims">Image Copyright Claims</a> 
-</p>
-
-<br>
 
 # Preview
 
