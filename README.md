@@ -13,19 +13,19 @@
 </p>
 
 <p align="center">
-  <img src="landingMain.jpg"
+  <img src="assest/landingMain.jpg"
      alt="Netflix Home Page" >
 </p>
 <p align="center">
-  <img src="sliderMain.jpg"
+  <img src="assest/sliderMain.jpg"
      alt="Netflix Movies slider" >
 </p>
 <p align="center">
-  <img src="genresMain.jpg"
+  <img src="assest/genresMain.jpg"
      alt="Netflix Movies through diffrent genres" >
 </p>
 <p align="center">
-  <img src="myListmain.jpg"
+  <img src="assest/myListmain.jpg"
      alt="Netflix my list page" >
 </p>
 
