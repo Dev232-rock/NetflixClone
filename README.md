@@ -8,7 +8,7 @@
 # Preview
 
 <p align="center">
-  <img src="netflix-ui/src/assest/loginMain.jpg"
+  <img src="assest/loginMain.jpg"
      alt="Netflix Landing Page" >
 </p>
 
