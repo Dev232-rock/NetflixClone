@@ -1,70 +1,109 @@
-# Getting Started with Create React App
+<p align="center">
+  <img src="netflix-ui/src/assest/logo.png"
+     alt="Netlflix logo by Anass FERRAK" >
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <h2 align="center">
+    <samp>
+      Netflix - A fully functional Netflix Clone made with MERN Stack and other technologies, check them below.
+    </samp>
+  </h2>
 
-## Available Scripts
+<br>
 
-In the project directory, you can run:
+<p align="center">
+  <a href="#preview">Preview</a> •
+  <a href="#tech-stack">Tech Stack</a> •
+  <a href="#usage">Usage</a> •
+  <a href="#features">Features</a> •
+  <a href="#todo-list">Todo list</a> •
+  <a href="#contribute">Contribute</a> •
+  <a href="#image-copyright-claims">Image Copyright Claims</a> 
+</p>
 
-### `npm start`
+<br>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+# Preview
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<p align="center">
+  <img src="netflix-ui/src/assest/loginMain.jpg"
+     alt="Netflix Landing Page" >
+</p>
 
-### `npm test`
+<p align="center">
+  <img src="netflix-ui/src/assest/landingMain.jpg"
+     alt="Netflix Home Page" >
+</p>
+<p align="center">
+  <img src="netflix-ui/src/assest/sliderMain.jpg"
+     alt="Netflix Movies slider" >
+</p>
+<p align="center">
+  <img src="netflix-ui/src/assest/genresMain.jpg"
+     alt="Netflix Movies through diffrent genres" >
+</p>
+<p align="center">
+  <img src="netflix-ui/src/assest/myListmain.jpg"
+     alt="Netflix my list page" >
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# Tech Stack
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## BackEnd:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-    [Node.js](https://nodejs.org)
+-    [Express.js](https://expressjs.com/)
 
-### `npm run eject`
+## FrontEnd:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+-    [React.js](https://reactjs.org/)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## DataBase:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+-    [MongoDB](https://www.mongodb.com/)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+# Usage
 
-## Learn More
+### Prerequisites:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+The project can be used along side with the server side or without it untill the next Readme update .
 
-To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-    Get a free API Key at [The Movie Database (TMDb)](www.themoviedb.org)
 
-### Analyzing the Bundle Size
+### Installation:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. Clone the repo
+     ```sh
+     git clone https://github.com/Dev232-rock/NetflixClone
+     ```
+2. Enter your API Key in `.env.example.js`
+     ```JS
+     REACT_APP_API_KEY="Your TMDB API KEY GOES HERE"; "api key looks like 3024a22ed0f1c54e11ac7bb62cfea210"
+     ```
+3. Rename the `.env.example.js` to `.env.js`.
 
-### Making a Progressive Web App
+4. Install NPM packages
+     ```sh
+     cd netflix-ui
+     npm install
+     ```
+5. Run the Client Side :
+     ```sh
+     cd netflix-ui
+     npm start
+     ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+6. Install NPM packages
+     ```sh
+     cd netflix-api
+     npm install
+     ```
+7. Run the Server Side :
+     ```sh
+     cd netflix-api
+     node server.js
+     ```
